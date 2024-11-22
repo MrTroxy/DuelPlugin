@@ -1,0 +1,40 @@
+name: DuelPlugin
+version: 1.0.0
+main: com.dev.mrtroxy.DuelPlugin
+prefix: DuelPlugin
+authors: [MrTroxy]
+description: Simple duel and arenas plugin
+website: https://portfolio-v2-mrtroxys-projects.vercel.app/
+
+commands:
+  duel:
+    description: Manage duels
+    usage: /duel [subcommand]
+    aliases: [duels]
+    permission: duel.use
+    permission-message: §cYou do not have permission to use this command.
+
+permissions:
+  duel.use:
+    description: Allows players to use duel commands
+    default: true
+
+  duel.create:
+    description: Allows players to create new duel arenas
+    default: op
+
+  duel.setspawn1:
+    description: Allows players to set spawn point 1 for a duel arena
+    default: op
+
+  duel.setspawn2:
+    description: Allows players to set spawn point 2 for a duel arena
+    default: op
+
+  duel.admin:
+    description: Grants all duel administrative permissions
+    default: false
+    children:
+      duel.create: true
+      duel.setspawn1: true
+      duel.setspawn2: true

@@ -1,0 +1,13 @@
+com\dev\mrtroxy\utils\DuelRequest.class
+com\dev\mrtroxy\models\Arena.class
+com\dev\mrtroxy\listeners\DuelListener.class
+com\dev\mrtroxy\managers\StatsManager$1.class
+com\dev\mrtroxy\managers\ArenaManager.class
+com\dev\mrtroxy\models\Duel.class
+com\dev\mrtroxy\managers\DuelManager.class
+com\dev\mrtroxy\utils\PlayerStats.class
+com\dev\mrtroxy\utils\SerializableLocation.class
+com\dev\mrtroxy\managers\StatsManager.class
+com\dev\mrtroxy\commands\DuelCommand.class
+com\dev\mrtroxy\managers\ArenaManager$1.class
+com\dev\mrtroxy\DuelPlugin.class

@@ -1,0 +1,4 @@
+# Configuration for the DuelPlugin
+
+# The number of coins awarded per duel win
+coins-per-win: 10
